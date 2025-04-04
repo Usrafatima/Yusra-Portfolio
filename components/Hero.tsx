@@ -46,7 +46,12 @@ const Hero = () => {
                <p className='font-medium text-center'>Growing Porfolio</p> 
             </div>
             <p className='my-6 max-w-xl text-center'>Frontend Dveloper based in Karachi, Pakistan  looking foward to work with you</p>
-            <motion.a
+             <motion.button
+            style={{
+                border,
+                boxShadow
+            }}
+
 
 
   className="flex w-fit items-center gap-2 rounded-full px-4 py-2 bg-white text-black"
@@ -55,7 +60,7 @@ const Hero = () => {
 >
   Download CV
   <FiArrowRight />
-</motion.a>
+</motion.button>
          
         </div>
         
