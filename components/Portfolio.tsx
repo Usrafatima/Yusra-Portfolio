@@ -4,7 +4,7 @@ import Image from 'next/image'
 import cab from "@/app/public/cab.png";
 import foodtuck from "@/app/public/foodtuck.png";
 import rentify from "@/app/public/rentify.png";
-import { image } from 'framer-motion/client';
+
 import { useMotionTemplate, useMotionValue, animate , motion } from 'framer-motion';
 
 
